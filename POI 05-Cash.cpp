@@ -1,3 +1,9 @@
+/*
+        store the indices of occurence of each digit in each number
+        try all the combinations of four-digit password   (10^4 combinations)
+        we can check each password if it's valid or not be looping over all 
+        the given number and binary search about the first occurence of the digit on turn
+*/
 #include <bits/stdc++.h>
 
 using namespace std;
